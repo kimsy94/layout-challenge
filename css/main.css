@@ -1,0 +1,171 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway:300,400);
+@import url(https://fonts.googleapis.com/css?family=Lato:300,400);
+
+.container-fluid {
+	font-family: 'Lato', 'Helvetica Neue', Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    background-image: url(../img/ricepaper_v3.png);
+    opacity: 0.9;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+body {
+    font-size: 16px;	
+}
+
+header {
+	background-color: #FA5A0F;
+	border-bottom: solid 5px #EA4A00;
+	color: #FFFFFF;
+	padding: 1em;
+}
+
+nav li {
+	list-style: none;
+	display: inline-block;
+	margin-right: 1em;
+}
+
+nav ul {
+	padding: 0em;
+	margin: 0px;
+}
+
+.feeding {
+	display: none;	
+}
+
+h1, h2, h3 {
+	font-family: 'Raleway', 'Helvetica Neue', Helvetica, sans-serif;
+    font-weight: 300;
+}
+
+h1 {
+	font-size: 300%;
+	margin: 0px;
+}
+
+h2 {
+	color: #505050;
+	font-size: 150%;
+	margin: 0px;
+}
+
+h3 {
+	font-size: 125%;
+}
+
+h1.dawg {
+	margin: 0px;
+}
+
+h3.feeding {
+	font-family: 'Lato', 'Helvetica Neue', Helvetica, sans-serif;
+    font-weight: 300;
+    margin: 0px;
+}
+
+h4 {
+	font-family: 'Lato', 'Helvetica Neue', Helvetica, sans-serif;
+    font-weight: 300;
+}
+
+#generalInfo .col-md-4 {
+	padding: 1em;
+}
+
+#menu .col-md-6 {
+	background: rgba(207, 205, 140, 0.5); 
+	padding-left: 1em;
+	padding-right: 1em;
+	padding-bottom: 1em;
+}
+
+#menu .col-md-12 {
+	background: rgba(207, 205, 140, 0.5); 
+	padding-top: 1em;
+	padding-left: 1em;
+	padding-right: 1em;
+}
+
+dt {
+	font-weight: 400;
+}
+
+dd {
+	font-size: 80%;
+	font-style: italic;
+	margin-left: 1em;
+	margin-right: 1em;
+}
+
+#aboutUs .col-md-12 {
+	padding: 1em;
+}
+
+a:link, a:visited {
+	color: #0000AA;
+	text-decoration: none;
+	padding-left: 1em;
+	padding-right: 1em;
+	padding-top: 0.5em;
+	padding-bottom: 0.5em;
+}
+
+a:hover, a:focus {
+	color: #0000EE;
+}
+
+nav:link, nav:visited {
+	color: #55E;
+}	
+
+nav:hover, nav:focus {
+	color: #00E;
+}
+
+footer .col-md-12 {
+	padding: 1em;
+	background-color: #FC892F;
+	border-top: solid 5px #EC791F;
+	font-size: 80%;	
+	text-align: right;
+}
+
+@media (min-width: 992px) {	
+
+	header {
+		position: relative;
+		background-color: #FA5A0F;
+		border-bottom: solid 5px #EA4A00;
+		color: #FFFFFF;
+		padding: 1em;
+	}
+
+	body {
+		background-image: url(../img/background.jpg);
+		background-size: cover;
+    	background-repeat: no-repeat;
+    	background-attachment: fixed;
+    	font-size: 18px;
+	}
+
+	.container-fluid {
+		margin-left: 30%;
+    	margin-top: 20px;
+    	margin-bottom: 20px;
+    	margin-right: 20px;
+	}
+
+	nav {
+		position: absolute;
+		top: 10px;
+		right: 10px;
+	}
+
+	.feeding {
+		display: inline;
+	}
+}
